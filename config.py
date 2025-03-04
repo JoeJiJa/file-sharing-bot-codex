@@ -17,7 +17,7 @@ APP_ID = int(os.environ.get("APP_ID", "26982594"))
 API_HASH = os.environ.get("API_HASH", "313be9b7265ea53cdd381bf4f99681ac")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002326013140"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002361209990"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "1049634513"))
@@ -27,7 +27,7 @@ PORT = os.environ.get("PORT", "8080")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://adscomjai:3GcLpN9JbD3Bi8WB@cluster0.t8owj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "Cluster7")
+DB_NAME = os.environ.get("DATABASE_NAME", "samplezztestbot")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
